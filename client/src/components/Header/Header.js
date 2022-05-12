@@ -16,7 +16,7 @@ function Header(props) {
   }
   function logout() {
     Logout();
-    navigate("/introduce");
+    navigate("/");
   }
   function moveToFavoriteMovie() {
     navigate("/home/myFavoriteFilm");
