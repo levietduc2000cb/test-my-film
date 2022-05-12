@@ -1,0 +1,10 @@
+@media only screen and (min-width: 769px) {
+  .transitionLeft {
+    transform: translateX(-100vw);
+    transition: transform ease 1s;
+  }
+  .transitionLeftMove {
+    transform: translateX(0);
+    transition: transform ease 1s;
+  }
+}

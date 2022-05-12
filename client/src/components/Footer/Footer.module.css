@@ -1,0 +1,25 @@
+.footerHover:hover {
+  text-decoration: underline;
+}
+
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+  .gridTemplateColumns {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    font-size: 12px;
+  }
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+  .gridTemplateColumns {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    font-size: 12px;
+  }
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px) {
+  .gridTemplateColumns {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    font-size: 12px;
+  }
+}

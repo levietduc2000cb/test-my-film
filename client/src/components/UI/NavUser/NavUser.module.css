@@ -1,0 +1,21 @@
+.hoverButton:hover {
+  cursor: pointer;
+  background: rgba(163, 153, 153, 0.4);
+}
+@media screen and (min-width: 480px) {
+  .width {
+    width: 224px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .width {
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .width {
+    width: 100px;
+  }
+}

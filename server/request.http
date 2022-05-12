@@ -1,0 +1,53 @@
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+
+{
+    "fullname":"Le Hoang Nam",
+    "username":"Ginga",
+    "password":"Ginga"
+}
+###
+GET http://localhost:5000/api/auth
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjZiYTU4MzczNGFhNDMyNDU2ODkwNzUiLCJpYXQiOjE2NTEyMjE4OTF9.c_OqvkDjS4G9cSKBV0vf0hM6FZFlP7KJcR0sBkamBQI
+###
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "username":"Duc",
+    "password":"Duc"
+}
+###
+POST http://localhost:5000/api/mylistfilm
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Mjc1ZWY2NGU5NTU3OTQ3MTljMzEzYjYiLCJpYXQiOjE2NTIwNjM0MTZ9.c99bs5zKbAHYGoVTuvqevyVpXwaEQPD09FYYVCcA1mc
+
+{
+    "title":"Duc1",
+    "description":"Duc1",
+    "ulrFilm":"https://www.google.com/",
+    "urlImg":"https://www.google.com/",
+    "status": "CHƯA XEM"
+}
+
+###
+GET http://localhost:5000/api/mylistfilm
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Mjc5MzFkMDE3MzBjNDQ4YjAyYThhMjUiLCJpYXQiOjE2NTIxMDk5ODB9.uDpD2dPfFkogbo3It3szusZVog5uOlAxCgbDwu3QUco
+
+###
+PUT http://localhost:5000/api/mylistfilm/627895447fed413424bee392
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Mjc1ZWY2NGU5NTU3OTQ3MTljMzEzYjYiLCJpYXQiOjE2NTIxNTQyODV9.NUdfVYIAe7E5zDB5U2vtvwxwUUZe5mWE0BmYqWXBhfw
+
+{
+    "title":"Hoang Nam",
+    "description":"Hoang Nam",
+    "ulrFilm":"https://www.shoppee.com/",
+    "urlImg":"https://www.shoppee.com/",
+    "status": "ĐÃ XEM"
+}
+
+###
+DELETE http://localhost:5000/api/mylistfilm/6268f76e24d629dc7afa448e
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjY4ZjRhZWMzMGRjYzM5OGQ0YmU4MjIiLCJpYXQiOjE2NTEwNDYyMTV9.LM3Wy-cIOe2yUZSasHRCq9lY-380U62hjHIQmx9VWdg

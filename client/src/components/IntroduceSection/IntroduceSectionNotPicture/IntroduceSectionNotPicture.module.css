@@ -1,0 +1,9 @@
+@media only screen and (min-width: 769px) {
+  .transitionSection {
+    opacity: 0;
+  }
+  .transitionSectionMove {
+    opacity: 1;
+    transition: all ease 2s;
+  }
+}

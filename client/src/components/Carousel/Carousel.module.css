@@ -1,0 +1,10 @@
+.height {
+  height: 600px;
+}
+.width {
+  max-width: 1200px;
+}
+.widthImg {
+  max-width: 900px;
+  width: 100%;
+}

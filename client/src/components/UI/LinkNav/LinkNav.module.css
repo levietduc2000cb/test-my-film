@@ -1,0 +1,35 @@
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+  .fontText {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+  .fontText {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+  .fontText {
+    font-size: 13px;
+    line-height: 14px;
+  }
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+  .fontText {
+    font-size: 10px;
+    line-height: 14px;
+  }
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px) {
+  .fontText {
+    font-size: 10px;
+    line-height: 14px;
+  }
+}

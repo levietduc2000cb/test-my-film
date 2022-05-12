@@ -1,0 +1,39 @@
+.hoverAllButton {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 480px) {
+  .widthImg {
+    width: 140px;
+  }
+  .fontSize {
+    font-size: 20px;
+  }
+  .width {
+    width: 224px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .widthImg {
+    width: 120px;
+  }
+  .fontSize {
+    font-size: 12px;
+  }
+  .width {
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .widthImg {
+    width: 120px;
+  }
+  .fontSize {
+    font-size: 6px;
+  }
+  .width {
+    width: 100px;
+  }
+}

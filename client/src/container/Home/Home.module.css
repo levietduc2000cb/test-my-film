@@ -1,0 +1,16 @@
+@media screen and (max-width: 770px) {
+  .hiddenTopFilm {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .displayBlock {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .displayBlock {
+    display: none;
+  }
+}

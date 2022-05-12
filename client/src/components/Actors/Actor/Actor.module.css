@@ -1,0 +1,28 @@
+.sizeImg {
+  max-width: 138px;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 531px) {
+  .maxHeight {
+    height: 175px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .fontSize {
+    font-size: 14px;
+  }
+  .maxHeight {
+    height: 100px;
+  }
+}
+@media screen and (min-width: 531px) and (max-width: 762px) {
+  .fontSize {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 762px) {
+  .fontSize {
+    font-size: 22px;
+  }
+}

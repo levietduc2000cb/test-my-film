@@ -1,0 +1,20 @@
+.withImg {
+  width: 100px;
+  height: 110px;
+}
+.titleText {
+  word-wrap: break-word;
+  display: block;
+  display: -webkit-box;
+  max-width: 90px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hoverFilm:hover {
+  cursor: pointer;
+}
+.hoverFilm:hover .titleText {
+  text-decoration: underline;
+}

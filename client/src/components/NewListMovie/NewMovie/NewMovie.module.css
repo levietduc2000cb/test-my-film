@@ -1,0 +1,15 @@
+.hoverFilm:hover {
+  background: rgba(194, 194, 194, 0.1);
+  cursor: pointer;
+  border-radius: 5px;
+}
+@media screen and (max-width: 426px) {
+  .fontSize {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .fontSize {
+    font-size: 18px;
+  }
+}
